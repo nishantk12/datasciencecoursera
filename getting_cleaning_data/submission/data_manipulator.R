@@ -39,7 +39,7 @@ data_set$activity <- labels$activity
 
 #giving names to activities
 data_set$activity <- sub("1","walking",data_set$activity)
-data_set$activity <- sub("2","walking_upstaird",data_set$activity)
+data_set$activity <- sub("2","walking_upstairs",data_set$activity)
 data_set$activity <- sub("3","walking_downstairs",data_set$activity)
 data_set$activity <- sub("4","sitting",data_set$activity)
 data_set$activity <- sub("5","standing",data_set$activity)
