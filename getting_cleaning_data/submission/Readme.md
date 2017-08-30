@@ -14,7 +14,7 @@ In the end it creates independent tidy data set with the average of each variabl
 8. grouped as per subjects and activity
 9. Created mean of all variables in df
 
-features_info.txt file is a modified version of what is available on the link posted above and defines what data you will get after doing manipulation on the data. 
+`features_info.txt` file is a modified version of what is available on the link posted above and defines what data is produced after doing manipulation on the data. 
 
 features.txt has the names of featured which get created after manipulation by data_manipulator.R
 avtivity_lables.txt has names of activities which were recorded for experimentation
