@@ -1,11 +1,11 @@
 ## Creating all the variables for file locations
-file_test <- "~/Documents/datasciencecoursera/git/Getting and cleaning Data/UCI HAR Dataset 2/test/X_test.txt"
-file_train <- "~/Documents/datasciencecoursera/git/Getting and cleaning Data/UCI HAR Dataset 2/train/X_train.txt"
-file_featurname_names <- "~/Documents/datasciencecoursera/git/Getting and cleaning Data/UCI HAR Dataset 2/features.txt"
-file_y_test <- "~/Documents/datasciencecoursera/git/Getting and cleaning Data/UCI HAR Dataset 2/test/Y_test.txt"
-file_y_train <- "~/Documents/datasciencecoursera/git/Getting and cleaning Data/UCI HAR Dataset 2/train/Y_train.txt"
-file_subject_test  <- "~/Documents/datasciencecoursera/git/Getting and cleaning Data/UCI HAR Dataset 2/test/subject_test.txt"
-file_subject_train <- "~/Documents/datasciencecoursera/git/Getting and cleaning Data/UCI HAR Dataset 2/train/subject_train.txt"
+file_test <- "~/Documents/datasciencecoursera/git/getting_cleaning_data/UCI HAR Dataset 2/test/X_test.txt"
+file_train <- "~/Documents/datasciencecoursera/git/getting_cleaning_data/UCI HAR Dataset 2/train/X_train.txt"
+file_featurname_names <- "~/Documents/datasciencecoursera/git/getting_cleaning_data/UCI HAR Dataset 2/features.txt"
+file_y_test <- "~/Documents/datasciencecoursera/git/getting_cleaning_data/UCI HAR Dataset 2/test/Y_test.txt"
+file_y_train <- "~/Documents/datasciencecoursera/git/getting_cleaning_data/UCI HAR Dataset 2/train/Y_train.txt"
+file_subject_test  <- "~/Documents/datasciencecoursera/git/getting_cleaning_data/UCI HAR Dataset 2/test/subject_test.txt"
+file_subject_train <- "~/Documents/datasciencecoursera/git/getting_cleaning_data/UCI HAR Dataset 2/train/subject_train.txt"
 
 #reading test and train features
 features_test <- read.table(file_test, sep = "" , header = F ,na.strings ="", stringsAsFactors= F)
@@ -38,12 +38,12 @@ names(labels) <- c("activity")
 data_set$activity <- labels$activity
 
 #giving names to activities
-data_set$activity <- sub("1","WALKING",data_set$activity)
-data_set$activity <- sub("2","WALKING_UPSTAIRS",data_set$activity)
-data_set$activity <- sub("3","WALKING_DOWNSTAIRS",data_set$activity)
-data_set$activity <- sub("4","SITTING",data_set$activity)
-data_set$activity <- sub("5","STANDING",data_set$activity)
-data_set$activity <- sub("6","LAYING",data_set$activity)
+data_set$activity <- sub("1","walking",data_set$activity)
+data_set$activity <- sub("2","walking_upstaird",data_set$activity)
+data_set$activity <- sub("3","walking_downstairs",data_set$activity)
+data_set$activity <- sub("4","sitting",data_set$activity)
+data_set$activity <- sub("5","standing",data_set$activity)
+data_set$activity <- sub("6","laying",data_set$activity)
 
 #reading subjects and vertically joining them
 subject_test <- read.table(file_subject_test, sep = "" , header = F ,na.strings ="", stringsAsFactors= F)
