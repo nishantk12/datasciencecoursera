@@ -3,7 +3,7 @@
 Script data_manipulator.R reads data and the joins multiple part of complete data set and the groups together multiple parts of them.
 In the end it creates independent tidy data set with the average of each variable for each activity and each subject.
 
-###Steps followed are as below:
+### Steps followed are as below:
 1. Reading test and train features
 2. Vertical joining the features
 3. Finding the columns with names containing means or std
