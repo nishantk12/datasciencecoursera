@@ -30,7 +30,7 @@ axis(1, at=at_seq, labels=c("Thu", "Fri", "Sat"))
 axis(2, at=seq(0,30,by=10), labels=seq(0,30,by=10))
 #fourth
 electric_req$Global_reactive_power <- as.numeric(as.character(electric_req$Global_reactive_power))
-plot.ts(electric_req$date_time, electric_req$Global_reactive_power, xy.lines = TRUE, type="n", axes=FALSE,ylab="Global_reactive_power", xlab="")
+plot.ts(electric_req$date_time, electric_req$Global_reactive_power, xy.lines = TRUE, type="n", axes=FALSE,ylab="Global_reactive_power", xlab="datetime")
 box(lty="solid")
 axis(1, at=at_seq, labels=c("Thu", "Fri", "Sat"))
 axis(2, at=seq(0,0.5,by=0.1), labels=seq(0,0.5,by=0.1))
