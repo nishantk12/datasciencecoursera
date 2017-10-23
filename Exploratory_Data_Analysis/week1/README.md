@@ -2,8 +2,22 @@
 
 This repository has been made as a submission for Datascience specialization course *Exploratory Data Analysis*
 
-There are 4 plots made as requried.
-Code can be found in the code directory 
-Plots are as below:
+There are 4 plots made as requried. \n
+Code can be found in the code directory \n 
+Plots are as below: \n
 
-![test](https://github.com/nishantk12/datasciencecoursera/blob/master/Exploratory_Data_Analysis/week1/plots/Plot1.png)
+**Plot 1**
+\n
+![Plot 1](https://github.com/nishantk12/datasciencecoursera/blob/master/Exploratory_Data_Analysis/week1/plots/Plot1.png)
+
+**Plot 2**
+\n
+![Plot 2](https://github.com/nishantk12/datasciencecoursera/blob/master/Exploratory_Data_Analysis/week1/plots/plot2.png)
+
+**Plot 3**
+\n
+![Plot 3](https://github.com/nishantk12/datasciencecoursera/blob/master/Exploratory_Data_Analysis/week1/plots/plot3.png)
+
+**Plot 4**
+\n
+![Plot 4](https://github.com/nishantk12/datasciencecoursera/blob/master/Exploratory_Data_Analysis/week1/plots/Plot4.png)
