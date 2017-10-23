@@ -1,10 +1,10 @@
 # Base plotting in R
 
-This repository has been made as a submission for Datascience specialization course *Exploratory Data Analysis*
+This repository has been made as a submission for Datascience specialization course **Exploratory Data Analysis** *week1*
 
 There are 4 plots made as requried. <br/>
 Code can be found in the code directory <br/> 
-Plots are as below: \n
+Plots are as below:
 
 **Plot 1**
 <br/>
