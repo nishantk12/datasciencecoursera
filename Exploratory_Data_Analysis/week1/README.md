@@ -6,4 +6,4 @@ There are 4 plots made as requried.
 Code can be found in the code directory 
 Plots are as below:
 
-!Plot1(/plots/Plot1.png?raw=true "Optional Title")
+!(/plots/Plot1.png?raw=true)
