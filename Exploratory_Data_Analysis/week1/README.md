@@ -6,4 +6,4 @@ There are 4 plots made as requried.
 Code can be found in the code directory 
 Plots are as below:
 
-!(?raw=://github.com/nishantk12/datasciencecoursera/blob/master/Exploratory_Data_Analysis/week1/plots/Plot1.png?true)
+!(https://github.com/nishantk12/datasciencecoursera/blob/master/Exploratory_Data_Analysis/week1/plots/Plot1.png?true)
