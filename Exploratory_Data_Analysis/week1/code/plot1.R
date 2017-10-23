@@ -1,0 +1,7 @@
+library("lubridate")
+library("dplyr")
+electic <- read.csv("~/Documents/coursera/Data-science-spec/4/week1/data/household_power_consumption.txt", sep=";")
+electric_req <- electic %>% filter(Date == "1/2/2007" | Date == "2/2/2007")
+electric_req$Global_active_power <- as.numeric(as.character(electric_req$Global_active_power))
+hist(electric_req$Global_active_power, col="red", xlab="Global Active Power(kilowatts)", main="Global Active Power")
+title(main="Global Active Power")

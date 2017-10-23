@@ -1,0 +1,12 @@
+library(lubridate)
+library("dplyr")
+electic <- read.csv("~/Documents/coursera/Data-science-spec/4/week1/data/household_power_consumption.txt", sep=";")
+electric_req <- electic %>% filter(Date == "1/2/2007" | Date == "2/2/2007")
+electric_req$Global_active_power <- as.numeric(as.character(electric_req$Global_active_power))
+electric_req <- electric_req %>% mutate(date_time = dmy_hms(paste0(Date," ", Time)))
+mid_index <- dim(electric_req)[1]/2L
+at_seq <- c(as.double(electric_req$date_time[1]), as.double(electric_req$date_time[mid_index]), as.double(electric_req$date_time[dim(electric_req)[1]]))
+plot.ts(electric_req$date_time, electric_req$Global_active_power, xy.lines = TRUE, type="n", axes=FALSE,ylab="Global Active Power(Kilowatts)", xlab="")
+axis(1, at=at_seq, labels=c("Thu", "Fri", "Sat"))
+axis(2, at=seq(0,6,by=2), labels=seq(0,6,by=2))
+box(lty="solid")
