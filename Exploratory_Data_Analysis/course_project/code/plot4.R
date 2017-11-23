@@ -17,4 +17,4 @@ year_total_pol_coal <- aggregate(Emissions ~ year, pol_col, sum)
 #plot the line over the year 
 plot(year_total_pol_coal$year, year_total_pol_coal$Emissions,col="blue",type="l",xlab="Years", ylab="Emission from coal sources over the years")
 points(year_total_pol_coal$year, year_total_pol_coal$Emissions, col="red", pch=20)
-title(main="Total emission change over the years from coal sources")
+title(main="Total emission from coal sources")
