@@ -43,7 +43,7 @@ ___
 ![Plot 4](https://github.com/nishantk12/datasciencecoursera/blob/master/Exploratory_Data_Analysis/course_project/plots/plot4.png)<br>
 
 Observation<br>
-The coal emmission over the whole time range has decreased over the years, but it increased in the time range 1999-2002 and surprisingly remained constant between 2002 and 2005 but saw a decline from 2005 to 2008.
+As can be seen from the graph, the coal emmission over the whole time range has decreased.
 
 ___
 
