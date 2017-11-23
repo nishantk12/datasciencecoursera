@@ -7,7 +7,7 @@ Plots and explainations are as below:
 **Plot 1**
 
 <br/>
-** Problem1 ** Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? <br>
+**Problem1** Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? <br>
 __plot__<br>
 ![Plot 1](https://github.com/nishantk12/datasciencecoursera/blob/master/Exploratory_Data_Analysis/course_project/plots/plot1.png)<br>
 
