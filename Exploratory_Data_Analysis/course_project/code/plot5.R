@@ -12,4 +12,4 @@ year_total_pol_vehicle <- aggregate(Emissions ~ year, pol_Baltimore_vehicles, su
 #plot the line over the year 
 plot(year_total_pol_vehicle$year, year_total_pol_vehicle$Emissions,col="blue",type="l",xlab="Years", ylab="Emission from vehicles in Baltimore")
 points(year_total_pol_vehicle$year, year_total_pol_vehicle$Emissions, col="red", pch=20)
-title(main="Total emission change over the years from Vehicles in Baltimore sources")
+title(main="Total emission change over the years \n from Vehicles in Baltimore sources")

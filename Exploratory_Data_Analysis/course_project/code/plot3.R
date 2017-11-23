@@ -11,4 +11,4 @@ pol_Baltimore_agg <- aggregate(pol_Baltimore$Emissions, by=list(year=pol_Baltimo
 f<- ggplot(pol_Baltimore_agg, aes(y=x, x=year))
 
 #plotting the lines + points
-f + geom_line(aes(col=type)) + geom_point(aes(col=type))
+f + geom_line(aes(col=type)) + geom_point(aes(col=type)) + ylab("Emissions") + ggtitle("Emission from different types of sources in Baltimore County")
