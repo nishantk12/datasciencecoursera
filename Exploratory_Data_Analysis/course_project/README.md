@@ -13,6 +13,7 @@ __plot__<br>
 __observation__<br>
 As per the plot, total emission of PM2.5 has decreased over the years and the decrease rate was at minimum between 2002 and 2005. 
 
+___
 
 **Problem1** Have total emissions from PM2.5 decreased in the Baltimore City, Maryland from 1999 to 2008?? <br>
 __plot__<br>
